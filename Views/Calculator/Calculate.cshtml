@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Calculate";
+}
+
+<h2>Calculate</h2>
+
+<form action="~/Calculator/Calculate" method="post">
+    <input type="text" name="a" placeholder="Toán hạng a" />
+    <select name="op">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="text" name="b" placeholder="Toán hạng b" />
+    <input type="submit" value=" = " />
+    <input type="text" name="ketqua"/>
+</form>
