@@ -306,6 +306,7 @@
     <Content Include="assets\vendor\remixicon\remixicon.symbol.svg" />
     <Content Include="assets\vendor\simple-datatables\simple-datatables.js" />
     <Content Include="assets\vendor\simple-datatables\style.css" />
+    <Content Include="BookRev.sql" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -324,6 +325,7 @@
       <DependentUpon>BookReviewModel.edmx</DependentUpon>
       <LastGenOutput>BookReviewModel.cs</LastGenOutput>
     </Content>
+    <Content Include="Readme.txt" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="assets\vendor\apexcharts\locales\ar.json" />
