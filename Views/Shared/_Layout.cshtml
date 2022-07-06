@@ -6,6 +6,7 @@
     <title>@ViewBag.Title - Smart Library</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/jquery.dataTables.css" rel="stylesheet" />
 
 </head>
 <body>
@@ -40,5 +41,6 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+    <script src="~/Scripts/jquery.dataTables.js"></script>
 </body>
 </html>
