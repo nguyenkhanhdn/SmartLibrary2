@@ -18,6 +18,7 @@ namespace SmartLibrary2.Models
         public Book()
         {
             this.Borrows = new HashSet<Borrow>();
+            this.BookRegistrations = new HashSet<BookRegistration>();
         }
     
         public int Id { get; set; }
@@ -33,5 +34,7 @@ namespace SmartLibrary2.Models
         public virtual Category Category { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Borrow> Borrows { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<BookRegistration> BookRegistrations { get; set; }
     }
 }

@@ -5,7 +5,6 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="e2d31a65550249e3af1aa8d52036e5ee" Name="Diagram1">
-        <EntityTypeShape EntityType="BookRevModel.BookRegistration" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
         <EntityTypeShape EntityType="BookRevModel.BookReview" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" />
         <EntityTypeShape EntityType="BookRevModel.Book" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
         <EntityTypeShape EntityType="BookRevModel.Borrow" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
@@ -13,6 +12,8 @@
         <EntityTypeShape EntityType="BookRevModel.Comment" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
         <AssociationConnector Association="BookRevModel.FK_Books_Categories" ManuallyRouted="false" />
         <AssociationConnector Association="BookRevModel.FK_Borrows_Books" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="BookRevModel.BookRegistration" Width="1.5" PointX="5.625" PointY="7.125" />
+        <AssociationConnector Association="BookRevModel.FK_BookRegistration_AspNetUsers" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
