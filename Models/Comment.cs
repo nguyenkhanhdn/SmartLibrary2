@@ -16,11 +16,9 @@ namespace SmartLibrary2.Models
     {
         public int Id { get; set; }
         public string UserId { get; set; }
-        public string Cont { get; set; }
+        public string Content { get; set; }
         public Nullable<int> Rate { get; set; }
         public Nullable<int> BookId { get; set; }
-        public Nullable<System.DateTime> ComDate { get; set; }
-    
-        public virtual AspNetUser AspNetUser { get; set; }
+        public Nullable<System.DateTime> CommentDate { get; set; }
     }
 }

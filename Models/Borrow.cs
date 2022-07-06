@@ -22,7 +22,6 @@ namespace SmartLibrary2.Models
         public string Note { get; set; }
         public Nullable<bool> Returned { get; set; }
     
-        public virtual AspNetUser AspNetUser { get; set; }
         public virtual Book Book { get; set; }
     }
 }

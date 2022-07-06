@@ -25,13 +25,11 @@ namespace SmartLibrary2.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<AspNetUser> AspNetUsers { get; set; }
         public virtual DbSet<BookRegistration> BookRegistrations { get; set; }
         public virtual DbSet<BookReview> BookReviews { get; set; }
         public virtual DbSet<Book> Books { get; set; }
         public virtual DbSet<Borrow> Borrows { get; set; }
         public virtual DbSet<Category> Categories { get; set; }
         public virtual DbSet<Comment> Comments { get; set; }
-        public virtual DbSet<Person> People { get; set; }
     }
 }

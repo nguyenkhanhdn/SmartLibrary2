@@ -26,7 +26,7 @@ namespace SmartLibrary2.Models
         public string Brief { get; set; }
         public string Publisher { get; set; }
         public string Auhtor { get; set; }
-        public string Code { get; set; }
+        public string BookCode { get; set; }
         public string CoverImg { get; set; }
         public string AudioURL { get; set; }
     

@@ -19,9 +19,7 @@ namespace SmartLibrary2.Models
         public Nullable<int> BookId { get; set; }
         public Nullable<System.DateTime> RegDate { get; set; }
         public string Note { get; set; }
-        public string RecMethod { get; set; }
+        public string ShipMethod { get; set; }
         public Nullable<bool> Status { get; set; }
-    
-        public virtual AspNetUser AspNetUser { get; set; }
     }
 }

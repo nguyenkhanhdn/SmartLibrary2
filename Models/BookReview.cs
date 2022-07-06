@@ -18,8 +18,6 @@ namespace SmartLibrary2.Models
         public string UserId { get; set; }
         public string Review { get; set; }
         public Nullable<System.DateTime> RevDate { get; set; }
-        public Nullable<bool> Process { get; set; }
-    
-        public virtual AspNetUser AspNetUser { get; set; }
+        public Nullable<bool> IsApproved { get; set; }
     }
 }
